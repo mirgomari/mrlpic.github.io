@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;700&display=swap');
+
+
+
+*
+{   
+    transition: 1s;
+    font-family: 'Alexandria', sans-serif;
+
+}
+
+body{
+    transition: 1s;
+    height: 250vh;
+    background-color: rgba(36, 34, 34, 0.808);
+}
+
+
+.card 
+{
+
+    width: 1500px;
+    height: 1500px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    transition: 1s;
+    box-shadow: 8px 8px 8px 8px rgba(68, 63, 63, 0.356);
+    position: absolute;
+    display: flex;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card .phpi
+{
+    transition: 1s;
+    position: absolute;
+    display: flex;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+.card .py
+{
+
+    transition: 1s;
+    position: absolute;
+    display: flex;
+    top: 60%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.card .title
+{
+    position: absolute;
+    display: flex;
+    top: 80%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+   
+
+
+}
+.card .title2
+{
+    position: absolute;
+    display: flex;
+    top: 83%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+   
+
+
+}
